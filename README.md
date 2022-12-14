@@ -1,5 +1,9 @@
 # stock-python
 
+## Demonstration:
+https://user-images.githubusercontent.com/104615876/207640802-edd1403e-a221-4ec3-9e1b-ded64ce2ee7a.mp4
+
+## Steps to Run this App:
 Follow these steps for running this `Streamlit` App on your System:
 
 1. Download the `ZIP` file of this repository as shown below:
