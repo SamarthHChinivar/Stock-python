@@ -5,6 +5,7 @@ Follow these steps for running this `Streamlit` App on your System:
 1. Download the `ZIP` file of this repository as shown below:
 
 ![download-github-button](https://user-images.githubusercontent.com/104615876/207635355-55b3b155-f0d0-41b5-8f39-f4a7918a50b7.jpg)
+
 2. Extract the `ZIP` file.
 
 3. Go the extracted file and then right click. Then select option `Open in-terminal` or open the terminal at this path.
