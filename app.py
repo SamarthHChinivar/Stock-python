@@ -2,10 +2,13 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import pandas_datareader as data
+from pandas_datareader import data as pdr
+import yfinance as yf 
 from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 import streamlit as st
+
+yf.pdr_override()
 
 start = '2011-01-01'
 end = '2021-01-01'
@@ -13,7 +16,7 @@ end = '2021-01-01'
 st.title('Stock Trend Prediction')
 
 user_input = st.text_input('Enter Stock Ticker', 'AAPL')
-df = data.DataReader(user_input, 'yahoo', start, end)
+df = pdr.get_data_yahoo(user_input, start=start, end=end)
 
 #Describing Data
 st.subheader('Data from 2011 - 2021')
